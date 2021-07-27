@@ -1,3 +1,3 @@
-# lifecycle
+# Lifecycle
 
-# charter
+# Charter
