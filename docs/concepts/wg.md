@@ -1,37 +1,37 @@
 # Lifecycle
 
-Working groups follow this life-cycle:
+Working groups follow this life-cycle
 
 ![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/baloise/BalMATE/master/docs/concepts/lifecycle.puml)
 
 # Charter
 
 ## Motivation
-Erachten wir ein Thema als wichtig und von übergeordnetem Interesse, so lagern wir die Ausarbeitung des Themas in eine Arbeitsgruppe aus
+If we consider a topic to be important and of global interest, we elaborate the topic within a working group.
 
-## Kultur
- - Für Arbeitsgruppen gilt grundsätzlich das [Kollegialitätsprinzip](https://de.wikipedia.org/wiki/Kollegialit%C3%A4tsprinzip).
- - Die Resultate einer Arbeitsgruppe sind in der Regel abschliessend und verbindlich. Davon abweichende Vetorechte können durch die Leadgremien definiert werden. Die Leadgremien bewerten die Entscheidungen.
- - Wir treffen unsere Entscheidungen bewusst und nachvollziehbar.  
- - Arbeitsgruppen-Entscheide und deren Bewertung durch die Leadorganisation  werden offen kommuniziert (mindestens in CCs und im IT-Protokoll)
- - Für Teilnehmer gilt der Grundsatz "kann ich etwas Essentielles zur AG beitragen". Nur reines Interesse am Thema ist keine Legitimation bei einer AG mitzumachen.
- - Jeder AG Teilnehmer bringt die benötigte Zeit mit.
+## Culture
+ - Within working groups the [collegiality principle](https://de.wikipedia.org/wiki/Kollegialit%C3%A4tsprinzip) is applied.
+ - The results of a working group are usually final and binding. Veto rights deviating from this can be defined by the lead committee. The lead committee evaluates the decisions.
+ - We make our decisions consciously and comprehensibly.  
+ - Working group decisions and their evaluation by the lead organization are openly communicated (at least in CCs and in the IT minutes).
+ - For participants, the principle of "can I contribute something essential to the WG" applies. Pure interest in the topic is no legitimation to participate in a WG.
+ - Each WG participant brings the required time.
 
-## Aufbauorganisation
- - Eine Arbeitsgruppe ist einer Leadorganisation (CC, Leitung, etc.) zugeordnet.
- - Die Arbeitsgruppe hat
-   - Eine Lead Organisation (z.B. ein CC)
-   - einen Arbeitsgruppen-Lead (eine Person)
-   - 2-10 zusätzliche Teilnehmer, idealerweise aus 2 oder mehr Domänen und wenn sinnvoll aus mehreren Leadgremien
-   - ein konkretes, formuliertes Ziel
-   - einen geplanten Endtermin
- - Der Arbeitsgruppen-Lead entscheidet abschliessend über die Zusammensetzung der Arbeitsgruppe.
+## Organizational structure
+ - A working group is assigned to a lead organization (CC, management, etc.).
+ - The working group has
+   - A lead organization (e.g. a CC)
+   - A working group lead (one person)
+   - 2-10 additional participants, ideally from 2 or more domains and if appropriate from multiple lead organizations
+   - A specific, articulated goal
+   - a planned end date
+ - The working group lead makes the final decision on the composition of the working group.
 
-## Ablauforganisation
- - Jede Arbeitsgruppe führt eine Confluence-Page auf der sowohl Lead, Ziel/Auftrag, Termine,  Teilnehmer, (Zwischen-)Ergebnisse, Entscheidungen und Bewertungen des Leadgremiums protokolliert werden. 
-- Arbeitsgruppen haben die Status **geplant** (mit Starttermin), **aktiv** (mit Endtermin) und **geschlossen**. Der Status ist auf der Confluence-Page ersichtlich.
-- 1-2 Wochen vor dem Start einer Arbeitsgruppe, wird diese im nächsten [Leitungsprotokoll](https://confluence.baloisenet.com/atlassian/x/WYHbLw) publiziert. Interessenten (auch nicht TAM-Mitglieder) können sich dann beim Lead melden. 
-- Grundsätzlich gilt bei Entscheidungen das Mehrheitsprinzip (absolutes Mehr) wobei der Lead das Recht des Stichentscheids hat. In begründeten Fällen kann von diesem Modus abgewichen werden.
-- Besteht das Bedürfnis zur Eskalation ist der CCO der erste Ansprechpartner.
-- Am Ende einer Arbeitsgruppe wird das Resultat dem Leadgremium vorgestellt und von diesem bewertet.
-- Resultat und Bewertung des Leadgremiums werden im folgenden Leitungsprotokoll publiziert.
+## Process organization
+ - Each working group maintains a Confluence page on which the lead, goal / task, dates, participants, (interim) results, decisions and evaluations of the lead committee are logged. 
+- Workgroups have the status **planned** (with start date), **active** (with end date) and **closed**. The status can be seen on the Confluence page.
+- 1-2 weeks before the start of a working group, it will be published in the next [IT management protocol](https://confluence.baloisenet.com/atlassian/x/WYHbLw). Interested parties (including non-TAM members) can then contact the lead. 
+- In principle, the majority principle (absolute majority) applies to decisions, whereby the lead has the right of the casting vote. In justified cases, this mode can be deviated from.
+- If there is a need for escalation, the CCO is the first point of contact.
+- At the end of a working group, the result is presented to and evaluated by the lead committee.
+- The result and the evaluation of the lead committee are published in the following management protocol.
