@@ -1,0 +1,7 @@
+@startuml
+start
+:Draft;
+:Active;
+:Closed;
+stop
+@enduml
