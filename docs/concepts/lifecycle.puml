@@ -1,7 +1,85 @@
 @startuml
-start
-:Draft;
-:Active;
-:Closed;
-stop
+partition #B0E3E6 "Funnel" {
+
+    note right
+      * there is an <b>owner</b>
+      * there is a <b>lead</b> e.g. proposed via owner, BalMATE, ...
+      * the topic has <b>severity</b> via votes
+      ====
+      <b>OnePager</b> from owner 
+      about high-level <b>scope and goal</b>
+      as <b>Epic in JIRA</b>
+    end note
+
+    partition #LightGrey "Handle new Business Request" {
+        #LightGrey:Create Request;
+        #LightGrey:Community Voting;
+        #LightGrey:Triage & Assign;
+    }
+}
+
+partition #B0DDF0 "Refine" {
+
+    note right
+      * <b>way of working (WoW) proposal</b> by lead 
+      * <b>rough estimations</b> created
+      * OnePager is extended with WoW and capa plan
+      ====
+      <b>call for participation</b> in IT management protocol
+      ====
+      public request for e.g. 
+        - <b>active & core membership</b> particpation (up to 50% of capa)
+        - <b>review membership</b> particpation
+      ====
+      * <b>who and what ready</b> - lead takes responsibility (and decides)
+      * <b>"light" PI planning</b> for WG before main PI planning: when and how long
+      * <b>WG participants communicate</b> with PO about reduced capacity
+    end note
+
+    start
+    partition "Form Working Group" {
+        repeat :Identify Stakeholder and Working Group Members;
+            :Refine Request (scope, estimates & stakeholders);
+        backward:refine;
+        repeat while (DoR fulfilled?)
+    }
+}
+
+partition #BAC8D3 "Ready" {
+    note right
+      the topic has priority
+    end note
+
+    #LightGrey::Prioritize Working Group;
+}
+
+partition #D4E6D3 "In Progress" {
+    partition "Create Result in Working Group e.g. via SAFe Lean Startup Cycle" {
+        note right
+          lead is responsible
+        end note
+
+        repeat :develop & build result;
+            :regular evaluation & reporting;
+        backward:continue;
+        repeat while (DoD fulfilled?)
+        :retrospective;
+        :hand-over result;
+    }
+}
+
+partition #FFF2CC Acceptance {
+    partition "Decide on Result" {
+        :create decision log;
+    }
+}
+
+partition #LightGrey Done {
+    stop
+    fork
+        #LightGrey:implement the result;
+    fork again
+        #LightGrey:create project;
+    endfork
+}
 @enduml
