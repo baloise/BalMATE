@@ -1,4 +1,7 @@
 @startuml
+
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/spacelab/puml-theme-spacelab.puml
+
 partition #B0E3E6 "Funnel" {
 
     note right
