@@ -51,7 +51,7 @@ partition #BAC8D3 "Ready" {
       the topic has priority
     end note
 
-    #LightGrey::Prioritize Working Group;
+    #LightGrey:Prioritize Working Group;
 }
 
 partition #D4E6D3 "In Progress" {
