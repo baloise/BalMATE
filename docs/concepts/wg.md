@@ -35,3 +35,7 @@ If we consider a topic to be important and of global interest, we elaborate the 
 - If there is a need for escalation, the BalMATE Team is the first point of contact.
 - At the end of a working group, the result is presented to and evaluated by the lead committee.
 - The result and the evaluation of the lead committee are published in the following management protocol.
+
+## References
+- SAFe: https://www.scaledagileframework.com/epic/
+- oneIT: https://confluence.baloisenet.com/atlassian/x/VI7gcg
