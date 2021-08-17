@@ -13,7 +13,7 @@ If we consider a topic to be important and of global interest, we elaborate the 
 
 ## Culture
  - Within working groups the [collegiality principle](https://de.wikipedia.org/wiki/Kollegialit%C3%A4tsprinzip) is applied.
- - The results of a working group are usually final and binding. Veto rights deviating from this can be defined by the core member. The core member evaluate the decisions.
+ - The results of a working group are usually final and binding. Veto rights deviating from this can be defined by the core member. The core and review member evaluate the decisions.
  - We make our decisions consciously and comprehensibly.  
  - Working group decisions and their evaluation by the lead organization are openly communicated (at least e.g. in CoPs and the IT management protocol).
  - For participants, the principle of "can I contribute something essential to the WG" applies. Pure interest in the topic is no legitimation to participate in a WG.
@@ -22,10 +22,10 @@ If we consider a topic to be important and of global interest, we elaborate the 
 ## Organizational structure
  - A working group is assigned to a lead organization (CoP, enterprise architecture, management, etc.).
  - The working group has
-   - A lead organization (e.g. a CoP)
-   - A working group coordinator (one person)
+   - a lead organization (e.g. a CoP)
+   - a working group coordinator (one person)
    - 2-10 additional member, ideally from 2 or more domains and if appropriate from multiple other teams or CoPs
-   - A specific, articulated goal
+   - a specific, articulated goal
    - a planned start and end date
  - The working group coordinator makes the final decision on the composition of the working group.
 
