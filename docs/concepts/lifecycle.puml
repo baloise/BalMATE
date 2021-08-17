@@ -1,17 +1,18 @@
 @startuml
-
 !include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/spacelab/puml-theme-spacelab.puml
 
 partition #B0E3E6 "Funnel" {
 
     note right
+      <b>Step 0</b> - considered "already clarified" (for the moment)
       * there is an <b>owner</b>
       * there is a <b>lead</b> e.g. proposed via owner, BalMATE, ...
       * the topic has <b>severity</b> via votes
       ====
-      <b>OnePager</b> from owner 
-      about high-level <b>scope and goal</b>
-      as <b>Epic in JIRA</b>
+      <b>Result</b>
+      * <b>OnePager</b> from owner ...
+      * about high-level <b>scope and goal</b> ...
+      * as <b>Epic in JIRA</b>
     end note
 
     partition #LightGrey "Handle new Business Request" {
@@ -24,20 +25,24 @@ partition #B0E3E6 "Funnel" {
 partition #B0DDF0 "Refine" {
 
     note right
+      <b>Step 1</b>
       * <b>way of working (WoW) proposal</b> by lead 
-      * <b>rough estimations</b> created
-      * <b>Fact sheet</b> in Confluence is created by lead with WoW and estimations
+      * <b>rough estimations</b> are available
+      * <b>Fact sheet</b> containing all relevant information in Confluence is available
       * OnePager is linked with Fact sheet 
       ====
-      <b>call for participation</b> in IT management protocol
+      <b>Step 2 - call for participation</b> in IT management protocol
       ====
-      public request for e.g. 
-        - <b>active & core membership</b> particpation (up to 50% of capa)
-        - <b>review membership</b> particpation
+      <b>Step 3 - public request for e.g. </b>
+      * <b>active & core membership</b> particpation (up to 50% of capa)
+      * <b>review membership</b> particpation
       ====
+      <b>Step 4</b>
       * <b>who and what ready</b> - lead takes responsibility (and decides)
-      * <b>"light" PI planning</b> for WG before main PI planning: when and how long
+      * perform <b>"light" PI planning</b> for WG before main PI planning: when and how long
       * <b>WG participants communicate</b> with PO about reduced capacity
+      ====
+      Result - <b>WG is ready for PI</b>
     end note
 
     start
