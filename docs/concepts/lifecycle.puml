@@ -5,12 +5,12 @@ partition #B0E3E6 "Funnel" {
 
     note right
       <b>Step 0</b> - considered "already clarified" (for the moment)
-      * there is an <b>owner</b>
-      * there is a <b>lead</b> e.g. proposed via owner, BalMATE, ...
+      * there is a <b>sponsor</b>
+      * there is a <b>coordinator</b> e.g. proposed via owner, BalMATE, ...
       * the topic has <b>severity</b> via votes
       ====
       <b>Result</b>
-      * <b>OnePager</b> from owner ...
+      * <b>OnePager</b> from coordinator ...
       * about high-level <b>scope and goal</b> ...
       * as <b>Epic in JIRA</b>
     end note
@@ -26,7 +26,7 @@ partition #B0DDF0 "Refine" {
 
     note right
       <b>Step 1</b>
-      * <b>way of working (WoW) proposal</b> by lead 
+      * <b>way of working (WoW) proposal</b> by coordinator 
       * <b>rough estimations</b> are available
       * <b>Fact sheet</b> containing all relevant information in Confluence is available
       * OnePager is linked with Fact sheet 
@@ -38,7 +38,7 @@ partition #B0DDF0 "Refine" {
       * <b>review membership</b> particpation
       ====
       <b>Step 4</b>
-      * <b>who and what ready</b> - lead takes responsibility (and decides)
+      * <b>who and what ready</b> - coordinator takes responsibility (and decides)
       * perform <b>"light" PI planning</b> for WG before main PI planning: when and how long
       * <b>WG participants communicate</b> with PO about reduced capacity
       ====
@@ -65,7 +65,7 @@ partition #BAC8D3 "Ready" {
 partition #D4E6D3 "In Progress" {
     partition "Create Result in Working Group e.g. via SAFe Lean Startup Cycle" {
         note right
-          lead is responsible
+          coordinator is responsible
         end note
 
         repeat :develop & build result;
