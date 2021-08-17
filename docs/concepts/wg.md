@@ -1,8 +1,8 @@
 # Lifecycle
 
 Working groups follow where applicable this life-cycle which is primarily based on and derived from
-- our oneIT core processes: https://confluence.baloisenet.com/atlassian/x/VI7gcg
-- as well as SAFe best practices such as the "lean startup cycle": https://www.scaledagileframework.com/epic/
+- our [oneIT core processes](https://confluence.baloisenet.com/atlassian/x/VI7gcg) 
+- as well as SAFe best practices such as the "[lean startup cycle](https://www.scaledagileframework.com/epic/)"
 
 ![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/baloise/BalMATE/bringWGInfosUpToDate/docs/concepts/lifecycle.puml)
 
