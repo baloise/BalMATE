@@ -49,7 +49,7 @@ partition #B0DDF0 "Refine" {
         repeat :Identify Stakeholder and Working Group Members;
             :Refine Request (scope, estimates & stakeholders);
         backward:refine;
-        repeat while (DoR fulfilled?)
+        repeat while (Ready for PI?)
     }
 }
 
