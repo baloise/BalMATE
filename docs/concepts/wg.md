@@ -1,6 +1,8 @@
 # Lifecycle
 
-Working groups follow this life-cycle
+Working groups follow where applicable this life-cycle which is primarily based on and derived from
+- our oneIT core processes: https://confluence.baloisenet.com/atlassian/x/VI7gcg
+- as well as SAFe best practices such as the "lean startup cycle": https://www.scaledagileframework.com/epic/
 
 ![](http://www.plantuml.com/plantuml/proxy?cache=no&src=https://raw.githubusercontent.com/baloise/BalMATE/bringWGInfosUpToDate/docs/concepts/lifecycle.puml)
 
@@ -35,7 +37,3 @@ If we consider a topic to be important and of global interest, we elaborate the 
 - If there is a need for escalation, the BalMATE Team is the first point of contact.
 - At the end of a working group, the result is presented to and evaluated by the lead committee.
 - The result and the evaluation of the lead committee are published in the following management protocol.
-
-## References
-- SAFe: https://www.scaledagileframework.com/epic/
-- oneIT: https://confluence.baloisenet.com/atlassian/x/VI7gcg
