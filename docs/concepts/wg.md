@@ -23,17 +23,17 @@ If we consider a topic to be important and of global interest, we elaborate the 
  - A working group is assigned to a lead organization (CoP, enterprise architecture, management, etc.).
  - The working group has
    - a lead organization (e.g. a CoP)
-   - a working group coordinator (one person)
+   - a working group lead (one person)
    - 2-10 additional member, ideally from 2 or more domains and if appropriate from multiple other teams or CoPs
    - a specific, articulated goal
    - a planned start and end date
- - The working group coordinator makes the final decision on the composition of the working group.
+ - The working group lead makes the final decision on the composition of the working group.
 
 ## Process organization
- - Each working group maintains a Confluence page on which the coordinator, sponsor, goal / task, dates, member, (interim) results, decisions and evaluations of the core member are logged. 
+ - Each working group maintains a Confluence page on which the lead, sponsor, goal / task, dates, member, (interim) results, decisions and evaluations of the core member are logged. 
 - Workgroups have the status **planned** (with start date), **active** (with end date) and **closed**. The status can be seen on the Confluence page.
 - Before the start of a working group, it will be published in the next [IT management protocol](https://confluence.baloisenet.com/atlassian/x/WYHbLw).
-- In principle, the majority principle ([absolute majority](https://en.wikipedia.org/wiki/Supermajority)) applies to decisions, whereby the coordinator has the right of the casting vote. In justified cases, this mode can be deviated from.
+- In principle, the majority principle ([absolute majority](https://en.wikipedia.org/wiki/Supermajority)) applies to decisions, whereby the lead has the right of the casting vote. In justified cases, this mode can be deviated from.
 - If there is a need for escalation, the BalMATE Team is the first point of contact.
 - At the end of a working group, the result is presented to and evaluated by the e.g. reviewing member.
 - The result and the evaluation are published in the following management protocol.
