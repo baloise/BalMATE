@@ -6,7 +6,7 @@ partition #B0E3E6 "Funnel" {
     note right
       <b>Sprint 1|2</b> - considered "already clarified" (for the moment)
       * there is a <b>sponsor</b>
-      * there is a <b>coordinator</b> e.g. proposed via owner, BalMATE, ...
+      * there is a <b>lead</b> e.g. proposed via owner, BalMATE, ...
       * the topic has <b>severity</b> via votes
       ====
       <b>Result</b>
@@ -26,7 +26,7 @@ partition #B0DDF0 "Refine" {
 
     note right
       <b>Sprint 2|3</b>
-      * <b>way of working (WoW) proposal</b> by coordinator 
+      * <b>way of working (WoW) proposal</b> by lead 
       * <b>rough estimations</b> are available
       * <b>Fact sheet</b> containing all relevant information in Confluence is available
       * OnePager is linked with Fact sheet 
@@ -37,7 +37,7 @@ partition #B0DDF0 "Refine" {
       * <b>active & core <or> review membership</b> particpation (up to 50% of capa)
       ====
       <b>Sprint 4|5</b>
-      * <b>who and what ready</b> - coordinator takes responsibility (and decides)
+      * <b>who and what ready</b> - lead takes responsibility (and decides)
       * perform <b>"light" PI planning</b> for WG before main PI planning: when and how long
       * <b>WG participants communicate</b> with PO about reduced capacity
       ====
@@ -64,7 +64,7 @@ partition #BAC8D3 "Ready" {
 partition #D4E6D3 "In Progress" {
     partition "Create Result in Working Group e.g. via SAFe Lean Startup Cycle" {
         note right
-          coordinator is responsible
+          lead is responsible
         end note
 
         repeat :develop & build result;
