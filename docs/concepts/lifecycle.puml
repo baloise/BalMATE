@@ -1,7 +1,93 @@
 @startuml
-start
-:Draft;
-:Active;
-:Closed;
-stop
+!include https://raw.githubusercontent.com/bschwarz/puml-themes/master/themes/spacelab/puml-theme-spacelab.puml
+
+partition #B0E3E6 "Funnel" {
+
+    note right
+      <b>Sprint 1|2</b> - considered "already clarified" (for the moment)
+      * there is a <b>sponsor</b>
+      * there is a <b>lead</b> e.g. proposed via owner, BalMATE, ...
+      * the topic has <b>severity</b> via votes
+      ====
+      <b>Result</b>
+      * <b>OnePager</b> ...
+      * about high-level <b>scope and goal</b> ...
+      * as <b>Epic in JIRA</b>
+    end note
+
+    partition #LightGrey "Handle new Business Request" {
+        #LightGrey:Create Request;
+        #LightGrey:Community Voting;
+        #LightGrey:Triage & Assign;
+    }
+}
+
+partition #B0DDF0 "Refine" {
+
+    note right
+      <b>Sprint 2|3</b>
+      * <b>way of working (WoW) proposal</b> by lead 
+      * <b>rough estimations</b> are available
+      * <b>Fact sheet</b> containing all relevant information in Confluence is available
+      * OnePager is linked with Fact sheet 
+      ====
+      <b>Sprint 3|4</b>
+      * <b>call for participation</b> in IT management protocol
+      * <b>public request by member for e.g.</b>
+      * <b>active & core <or> review membership</b> particpation (up to 50% of capa)
+      ====
+      <b>Sprint 4|5</b>
+      * <b>who and what ready</b> - lead takes responsibility (and decides)
+      * perform <b>"light" PI planning</b> for WG before main PI planning: when and how long
+      * <b>WG participants communicate</b> with PO about reduced capacity
+      ====
+      Result - <b>WG is ready for PI</b>
+    end note
+
+    start
+    partition "Form Working Group" {
+        repeat :Identify Stakeholder and Working Group Members;
+            :Refine Request (scope, estimates & stakeholders);
+        backward:refine;
+        repeat while (Ready for PI?)
+    }
+}
+
+partition #BAC8D3 "Ready" {
+    note right
+      the topic has priority
+    end note
+
+    #LightGrey:Prioritize Working Group;
+}
+
+partition #D4E6D3 "In Progress" {
+    partition "Create Result in Working Group e.g. via SAFe Lean Startup Cycle" {
+        note right
+          lead is responsible
+        end note
+
+        repeat :develop & build result;
+            :regular evaluation & reporting;
+        backward:continue;
+        repeat while (DoD fulfilled?)
+        :retrospective;
+        :hand-over result;
+    }
+}
+
+partition #FFF2CC Acceptance {
+    partition "Decide on Result" {
+        :create decision log;
+    }
+}
+
+partition #LightGrey Done {
+    stop
+    fork
+        #LightGrey:implement the result;
+    fork again
+        #LightGrey:create project;
+    endfork
+}
 @enduml
